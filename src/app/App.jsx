@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
 import 'sass/app.scss';
-import RouterOutlet from 'router/RouterOutlet'
-import AppNavbar from '@/AppNavbar'
-import AppFooter from '@/AppFooter'
+import Account from '@/Account'
+
+import { Container, Row, Col } from 'react-bootstrap';
 
 class App extends Component {
   render() {
     return (
       <div id="App">
-        <AppNavbar/>
-        <RouterOutlet/>
-        <AppFooter/>
+        <Container>
+          <Col>
+            <Row>
+              <h1>Чичина Алина</h1>
+            </Row>
+            <Row>
+              <Account/>
+            </Row>
+          </Col>
+        </Container>
       </div>
     );
   }
