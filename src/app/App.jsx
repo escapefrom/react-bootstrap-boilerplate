@@ -12,6 +12,7 @@ class App extends Component {
           <Col>
             <Row>
               <h1>Чичина Алина</h1>
+              <br/><br/>
             </Row>
             <Row>
               <Account/>
